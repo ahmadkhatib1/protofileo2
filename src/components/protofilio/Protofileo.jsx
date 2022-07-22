@@ -5,10 +5,10 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import './swipe.css';
 import 'swiper/css';
 // impor image 
-import Hoc from '../../img/hoc.png';
-import Musicapp from '../../img/musicapp.png';
-import Ecommerce from '../../img/ecommerce.png';
-import Sidebar from '../../img/sidebar.png';
+import One from '../../img/1.png';
+import Two from '../../img/6.png';
+import Three from '../../img/7.png';
+import Four from '../../img/8.png';
 // context
 const Protofileo = () => {
   const theme = useContext(themeContext);
@@ -26,16 +26,16 @@ const Protofileo = () => {
         className='portfolio-slider'
       >
         <SwiperSlide >
-          <ProtfiloImage src={Sidebar} />
+          <ProtfiloImage src={One} />
         </SwiperSlide>
         <SwiperSlide>
-          <ProtfiloImage src={Ecommerce} />
+          <ProtfiloImage src={Two} />
         </SwiperSlide>
         <SwiperSlide>
-          <ProtfiloImage src={Musicapp} />
+          <ProtfiloImage src={Three} />
         </SwiperSlide>
         <SwiperSlide>
-          <ProtfiloImage src={Hoc} />
+          <ProtfiloImage src={Four} />
         </SwiperSlide>
       </Swiper>
     </Protofilo>
